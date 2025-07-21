@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> novologin </title>
+
+
+    <style>
+    body
+    {
+        background-color:white;
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+    header
+    {
+      background: linear-gradient(to right, #ffb6c1, #add8e6);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #fce4ec, #e3f2fd);
+      margin: 0;
+      padding: 0;
+    }
+
+
+    header {
+      background-color: #add8e6;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+
+
+    form {
+      background-color: white;
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+
+    form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #8332b3;
+    }
+
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 2px solid #f2c0ff;
+      border-radius: 10px;
+      font-size: 16px;
+      background-color: #fff0f5;
+    }
+
+
+    form textarea {
+      resize: vertical;
+    }
+
+
+    button {
+      background-color: rgb(139, 91, 252);
+      color: rgb(255, 255, 255);
+      padding: 15px 30px;
+      font-size: 16px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+
+    button:hover {
+      background-color: #75328a;
+      transform: scale(1.05);
+    }
+   </style>
+</head>
+<body>
+    <header><h1>Criar conta</h1></header>
+ <form action="#" method="post">
+    <label for="nome">Nome de usuario:</label>
+    <input type="text" id="nome" name="nome" required>
+
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone" required>
+
+
+    <label for="senha">Senha</label>
+    <input id="senha" name="senha" required></input>
+
+
+    <center><button type="button" onclick="login()">Finalizar</button>
+    <script>
+    function login()
+    {
+    const nome = document.getElementById("nome").value.trim();
+    const telefone = document.getElementById("telefone").value.trim();
+    const senha = document.getElementById("senha").value.trim()
+
+
+    if (nome && telefone && senha)
+    {
+    window.location.href = "pagina de login.html";
+    }
+    else  
+    {
+    alert("Por favor, conclua seu cadastro");
+    }
+    }
+    </script>
+    </center>
+
+
+   
+</body>
+</html>
+
+
+
+
+
