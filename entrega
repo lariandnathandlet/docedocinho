@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Entrega - Doce Docinho</title>
+  <style>
+    *
+    {
+      box-sizing: border-box;
+    }
+
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #fce4ec, #e3f2fd);
+      margin: 0;
+      padding: 0;
+    }
+
+
+    header {
+      background-color: #add8e6;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+
+    form {
+      background-color: white;
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+
+    form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #d63384;
+    }
+
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 2px solid #ffc0cb;
+      border-radius: 10px;
+      font-size: 16px;
+      background-color: #fff0f5;
+    }
+
+
+    form textarea {
+      resize: vertical;
+    }
+
+
+    button {
+      background-color: #ff69b4;
+      color: white;
+      padding: 15px 30px;
+      font-size: 16px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+
+    button:hover {
+      background-color: #ff1493;
+      transform: scale(1.05);
+    }
+
+
+   
+  </style>
+</head>
+<body>
+
+
+  <header>
+    <h1>📦 Entrega - Doce Docinho</h1>
+  </header>
+
+
+  <form action="#" method="post">
+    <label for="nome">Nome Completo:</label>
+    <input type="text" id="nome" name="nome" required>
+
+
+    <label for="endereco">Endereço:</label>
+    <textarea id="endereco" name="endereco" rows="1" required></textarea>
+
+
+    <label for="pedido">Detalhes do Pedido:</label>
+    <textarea id="pedido" name="pedido" rows="3" required></textarea>
+
+
+    <button type="button" onclick="saiu()">Enviar Pedido</button>
+    <script>
+    function saiu()
+    {
+    const nome = document.getElementById("nome").value.trim();
+    const endereco = document.getElementById("endereco").value.trim();
+    const pedido = document.getElementById("pedido").value.trim();
+
+
+    if (nome && endereco && pedido)
+    {
+    window.location.href = "saiupentrega.html";
+    }
+    else  
+    {
+    alert("Por favor, preencha todos os campos!");
+    }
+    }
+   
+    </script>
+
+
+    <button type="button" onclick="voltar()">Voltar para o inicio</button>
+    <script>
+    function voltar() {
+        window.location.href = "telainicial.html";
+    }
+    </script>
+  </form>
+
+
+</body>
+</html>
+
+
+
