@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doce Docinho</title>
+  <style>
+    *
+    {  
+       box-sizing: border-box;
+    }
+    body
+    {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #ffe6f0;
+      color: #660144;
+    }
+
+
+    header
+    {
+      background: linear-gradient(to right, #ffb6c1, #add8e6);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+
+    h1
+    {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+
+    nav
+    {
+      background-color: #f8bbd0;
+      padding: 10px;
+      text-align: center;
+    }
+
+
+    nav a
+    {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+
+    .container
+    {
+      padding: 30px;
+      text-align: center;
+    }
+
+
+    .card
+    {
+      background-color: #fff0f5;
+      border: 2px solid #ffc0cb;
+      border-radius: 15px;
+      display: inline-block;
+      padding: 20px;
+      margin: 15px;
+      width: 250px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+
+    .card:hover
+    {
+    transform: scale(1.1);
+    }
+
+
+    .card img
+    {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+
+    .card h3
+    {
+      margin-top: 10px;
+      color: #d63384;
+    }
+
+    .foto img
+    {
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(255, 123, 222, 0.685);
+    }
+
+
+    footer
+    {
+      background-color: #add8e6;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+
+  <header>
+    <h1>🍬 Doce Docinho 🍭</h1>
+    <p>Os doces mais fofos da cidade!</p>
+  </header>
+
+
+  <nav>
+    <a href="file:///C:/Users/202430512541/Desktop/telainicial.html">Início</a>
+    <a href="file:///C:/Users/202430512541/Desktop/cardapio.html">Produtos</a>
+    <a href="file:///C:/Users/202430512541/Desktop/pre%C3%A7os.html">Preços</a>
+    <a href="file:///C:/Users/202430512541/Desktop/entrega.html">Entrega</a>
+  </nav>
+
+
+
+<br>
+<br>
+    <center><h1>Bem vindos a loja Doce Docinho!</h1>
+    <br>
+    É um prazer ter você aqui! No Doce Docinho, cada cookie é feito com carinho, ingredientes selecionados e aquele toque especial que derrete corações, além de produção totalmente artesanal.
+    <br>explore nossos sabores irresistíveis e descubra como um simples docinho pode transformar o seu dia.
+    Sinta-se em casa, e prepare-se para aproveitar cada mordida!
+    <br>
+    <br>
+    <div class="foto">
+    <img src="https://imageresizer.static9.net.au/I6i1pCZlKw-TLBuM-GO8kJHi7YU=/224x301:1348x1145/396x0/https%3A%2F%2Fprod.static9.net.au%2Ffs%2Fdd2ae1c1-eaf5-4960-8ba7-9d210143ad13">
+    </div>
+</center>
+   
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <footer>
+    <p>&copy; 2025 Doce Docinho. Todos os direitos reservados a Larissa & Vitoria.</p>
+  </footer>
+
+
+</body>
+</html>
+
+
+
