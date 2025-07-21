@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Preços </title>
+
+
+    <style>
+    *
+    {  
+        box-sizing: border-box;
+    }
+    body
+    {
+        background-color:rgb(253, 234, 246);
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+    header {
+      background: linear-gradient(to right, #ffb6c1, #add8e6);
+      color: rgb(255, 255, 255);
+      padding: 30px;
+      text-align: center;
+    }
+
+
+    nav {
+      background-color: #f8bbd0;
+      padding: 10px;
+      text-align: center;
+    }
+
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+
+    #teste
+    {
+        border-style: solid;
+        border-radius: 10px;
+        border-color: rgb(255, 157, 203);
+        width: 100px;
+    }
+
+
+   .container {
+      padding: 30px;
+      text-align: center;
+    }
+
+
+    .card
+    {
+      background-color: #fff0f5;
+      border: 2px solid #ffc0cb;
+      border-radius: 15px;
+      display: inline-block;
+      padding: 20px;
+      margin: 15px;
+      width: 250px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+
+    .card:hover
+    {
+    transform: scale(1.1);
+    }
+   
+    .card img
+    {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+
+    .card h3
+    {
+      margin-top: 10px;
+      color: #d63384;
+    }
+
+
+
+
+   h1
+   {
+   color: rgb(255, 255, 255);
+   }
+
+
+    footer
+    {
+      background-color: #add8e6;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 0px;
+    }
+   </style>
+</head>
+<body>
+    <header><h1>Tabela de Preços🍪</h1></header>
+     <nav>
+    <a href="file:///C:/Users/202430512541/Desktop/telainicial.html">Início</a>
+    <a href="file:///C:/Users/202430512541/Desktop/cardapio.html">Produtos</a>
+    <a href="file:///C:/Users/202430512541/Desktop/pre%C3%A7os.html">Preços</a>
+    <a href="file:///C:/Users/202430512541/Desktop/entrega.html">Entrega</a>
+  </nav>
+       <div class="container">
+   
+        <br> 
+        <br>
+    <div class="card">
+      <h3>Cookie Tradicional</h3>
+      <p>R$: 7,00</p>
+      <p>Masa tradicinoal com gotas de chocolate ao leite</p>
+    </div>
+
+
+    <div class="card">
+      <h3>Cookie de chocolate</h3>
+    <p>R$: 9,00</p>
+    <p>Masa de chocolate com gotas de chocolate belga</p>
+    </div>
+
+
+    <div class="card">
+      <h3>Especial da casa</h3>
+      <p>R$: 10,00</p>
+     <p>Masa tradicional com glacê de nesquik e granulado</p>
+    </div>
+  </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+
+<footer>
+    <p>&copy; 2025 Doce Docinho. Todos os direitos reservados a Larissa & Vitoria.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
