@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Produtos</title>
+  <style>
+    *
+    {  
+      box-sizing: border-box;
+    }
+    body
+    {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #ffe6f0;
+      color: #333;
+    }
+
+
+    header
+    {
+      background: linear-gradient(to right, #ffb6c1, #add8e6);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+
+    h1
+    {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+
+    nav
+    {
+      background-color: #f8bbd0;
+      padding: 10px;
+      text-align: center;
+    }
+
+
+    nav a
+    {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+
+    .container
+    {
+      padding: 30px;
+      text-align: center;
+    }
+
+
+    .card
+    {
+      background-color: #fff0f5;
+      border: 2px solid #ffc0cb;
+      border-radius: 15px;
+      display: inline-block;
+      padding: 20px;
+      margin: 15px;
+      width: 250px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+
+    .card:hover
+    {
+    transform: scale(1.1);
+    }
+
+
+    .card img
+    {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+
+    .card h3
+    {
+      margin-top: 10px;
+      color: #d63384;
+    }
+
+
+    footer
+    {
+      background-color: #add8e6;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+
+  <header>
+    <h1>🍬 Doce Docinho 🍭</h1>
+    <p>Os doces mais fofos da cidade!</p>
+  </header>
+
+
+  <nav>
+    <a href="file:///C:/Users/202430512541/Desktop/telainicial.html">Início</a>
+    <a href="file:///C:/Users/202430512541/Desktop/cardapio.html">Produtos</a>
+    <a href="file:///C:/Users/202430512541/Desktop/pre%C3%A7os.html">Preços</a>
+    <a href="file:///C:/Users/202430512541/Desktop/entrega.html">Entrega</a>
+  </nav>
+
+
+  <div class="container">
+    <h2>Nossos Doces</h2>
+   
+    <div class="card">
+      <img src="https://pngimg.com/d/cookie_PNG13683.png" alt="Cookie">
+      <h3>Cookie Tradicional</h3>
+      <p>Clássico, feito com amor e chocolate</p>
+    </div>
+
+
+    <div class="card">
+      <img src="https://www.pikpng.com/pngl/b/32-323639_chocolate-cookies-png-cookie-clipart.png" alt="Cholate">
+      <h3>Cookie de Chocolate</h3>
+      <p>Delicioso docinho, coberto com açúcar e carinho.</p>
+    </div>
+
+
+    <div class="card">
+      <img src="https://substackcdn.com/image/fetch/$s_!HzrK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F908c3df0-f5fe-4716-8686-c0e91e719067_600x600.png" alt="  ">
+      <h3>Especial da casa</h3>
+      <p>Massa tradicional com delicioso glacê de nesquik.</p>
+    </div>
+  </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  <footer>
+    <p>&copy; 2025 Doce Docinho. Todos os direitos reservados a Larissa & Vitoria.</p>
+  </footer>
+
+
+</body>
+</html>
+
+
+
